@@ -8,6 +8,6 @@ export default class Participant {
 	}
 
 	receive (from: Participant, message: string) {
-		console.log(`O participante ${from.name} mandou para ${this.name}: ${message}`);
+		// console.log(`O participante ${from.name} mandou para ${this.name}: ${message}`);
 	}
 }
